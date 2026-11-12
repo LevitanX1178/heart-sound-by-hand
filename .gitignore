@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+# never commit recordings or patient data
+*.wav
+*.mat
+*.parquet
+data/raw/
+
+# Excel lock files
+~$*
